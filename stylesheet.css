@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url("Assets/Fonts/Norse-Bold.otf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.content{
+    width:100vw;
+    height: 100vh;
+}
+
+.content, .logo{
+    display:flex;
+    flex-flow: row wrap;
+}
+
+/* Left */
+
+
+.side-bar{
+    background-image: url("Assets/Images/Jungle-background.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.logo{
+    height: auto;
+    display: flex;
+    position: relative;
+    background-color: rgb(0, 0, 0, 0.7);
+    top: 20vh;
+    gap:1vh;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-family: 'Norse-Bold';
+    font-size: 12.5rem;
+}
+
+#OdinLogo{
+    height: 20vh;
+}
+#side-footer{
+    position: absolute;
+    bottom: 0;
+    font-size: medium;
+    bottom: 10px;
+    
+}
+
+#side-footer a{
+    color: white;
+    
+}
+
+
+
+/* Right side */
+
+.left{
+    padding-left: 3vw;
+}
+
+.right{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    
+    flex-flow: column nowrap;
+}
+
+.intro-text{
+    font-weight: 700;
+    width: 90%;
+    font-size: 1.5rem;
+}
+
+.remote-text{
+    margin: 40px 0 80px;
+}
+
+/* Form */
+.form{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    padding-bottom: 20px;
+
+    box-shadow: 0 4px 3px -3px gray;
+}
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 25%;
+    font-size: 0.7rem;
+    text-transform: uppercase;    
+    
+}
+
+.form-title{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.login{
+    display: flex;
+    gap: 5px;
+}
+
+.login p{
+    font-size: 1.2rem;
+}
+
+input{
+    border: #E5E7EB;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+input:focus{
+    border: blue;
+}
+
+label{
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 40px;
+    margin: 40px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 700;
+}
+
+a:hover{
+    color: black;
+}
+
+
+/* Error class for input */
+.is-invalid{
+    border: 1px solid red;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
